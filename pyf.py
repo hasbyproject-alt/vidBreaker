@@ -1,3 +1,5 @@
+#this is all the code used for this tool
+
 import tkinter as tk
 import random
 from tkinter import filedialog
@@ -45,8 +47,8 @@ def open_file():
 
 root = tk.Tk()
 
-root.geometry("400x300")      # Set the initial size
-root.resizable(False, False)  # Prevent resizing
+root.geometry("400x300")
+root.resizable(False, False)
 root.title("vidBreaker")
 
 label = tk.Label(root, text="Hello, world!")
